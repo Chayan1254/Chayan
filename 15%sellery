@@ -1,0 +1,14 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{ string name;jhhjhhhh
+  double sum,b,c,a;
+  cin>>name;
+  cin>>a;
+  cin>>b;
+  c=b*15/100;
+  sum=c+a;
+  cout<<"TOTAL = R$ "<<fixed<<setprecision(2)<<sum<<endl;
+    return 0;
+}
