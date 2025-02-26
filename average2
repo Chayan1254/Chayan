@@ -1,0 +1,12 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main()
+{ float sum,a,b,c;
+  cin>>a;
+  cin>>b;
+  cin>>c;
+  sum=(a*2+b*3+c*5)/(10);
+  cout<<"MEDIA = "<<fixed<<setprecision(1)<<sum<<endl;
+    return 0;
+}
