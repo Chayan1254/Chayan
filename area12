@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    double a,b,c;
+    cin>>a>>b>>c;
+    double result=(0.5*a*c);
+    double result1=(3.14159*c*c);
+    double result2=(((a+b)/2)*c);
+    double result3=(b*b);
+    double result4=(a*b);
+    cout<<"TRIANGULO: "<<fixed<<setprecision(3)<<result<<endl;
+    cout<<"CIRCULO: "<<fixed<<setprecision(3)<<result1<<endl;
+    cout<<"TRAPEZIO: "<<fixed<<setprecision(3)<<result2<<endl;
+    cout<<"QUADRADO: "<<fixed<<setprecision(3)<<result3<<endl;
+    cout<<"RETANGULO: "<<fixed<<setprecision(3)<<result4<<endl;
+    return 0;
+}
