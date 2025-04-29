@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{    int a,c,d,b,e;
+    cin>>a;
+    b=a/3600;
+    d=a%3600;
+    c=d/60;
+    e=d%60;
+    cout<<b<<":"<<c<<":"<<e<<endl;
+
+    return 0;
+}
